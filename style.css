@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap'); */
+
+@font-face {
+    font-family: 'android';
+    src: url('/android/IDroid.otf');
+    font-weight: 'normal';
+}
+@font-face {
+    font-family: 'bebas neue';
+    src: url('./bebas/BebasNeue-Regular.ttf');
+    font-weight: 'normal';
+}
+:root{
+--cor0:#08979E; 
+--cor1:#08A883;
+--cor2:#009147;
+--cor3:#0b551a;
+--cor4:#179E08;
+
+--fonte-padrao:arial, verdana, helvetica, sans-serif;
+--fonte-destaque:'bebas neues', 'cursive';
+--fonte-androide:'androide', 'cursive';
+
+} 
+*{
+    margin: 0px;
+    padding: 0px;
+}              
+body{
+    background-color:#93fce3 ;
+    font-family:var(--fonte-padrao);
+    
+}
+ main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1em;
+}
+header{
+    color: white;
+   background-image: linear-gradient(to bottom,#3ddc84,#063d1e); 
+    font-family:var(--fonte-destaque);
+    padding: 30px;
+    text-align: center;
+    min-height: 150px;
+}
+ #cabecalho{
+     font-family: 'bebas neue', sans-serif; 
+    font-size: 50px;
+    font-style: bolder;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px  black;
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+header > p{
+    font-size: 1.5em;
+  text-align: justify; 
+    max-width: 500px;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+    text-align: left;
+    color: white;
+    box-shadow: 0px 7px 7px black;
+    
+}
+nav > a{
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+nav > a:hover {
+    background-color: #08979E;
+    font-size: larger;
+}
+h1#titulo{
+     background-color: #93fcdc; 
+    font-family:'bebas neue';
+    color:white ;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    background-image: linear-gradient(to left,transparent,#063d1e); 
+    /* background-image: linear-gradient('to left #0b551a, transparent'); */
+     
+}
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main a{
+    text-decoration: none;
+    background-color: #0f6134;
+    padding: 3px;
+    color: #72dda6;
+    border-radius: 5px;
+}
+main a:hover{
+    text-decoration: underline;
+   font-size: larger;
+   background-color: #08979e;
+   color: #063d1e;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+strong{
+    padding: 2px;
+    /* background-color: #72dda6; */
+    border-radius: 5px;
+    color: #44b675;
+}
+
+ a.externo::after {
+    content: '\00a0\1f517';
+ }
+
+
+
+h2{
+    padding: 10px;
+    font-family: var(--fonte-android);
+    color: #179E08;
+    background-image: linear-gradient(to left, transparent, #063d1e); 
+}
+
+aside{
+    background-color: #08A883;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+div.video{
+    background-color: #009147;
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 57%;
+}
+div.video > iframe{
+position: absolute;
+top: 5%;
+left:5% ;
+width: 90%;
+height: 90%;
+}
+aside > h3{
+    background-color: #0b551a;
+    text-align: center;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+aside > ul{
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+}
+aside > p > strong{
+    color: white;
+}
+footer{
+    background-color: #0b551a;
+    text-align: center;
+    padding: 15px;
+}
+footer > p > a{
+    text-decoration: none;
+    background-color:#115e20 ;
+    padding: 5px;
+    border-radius: 5px;
+    color: #97f0db;
+}
+footer > p{
+    padding: 5px;
+    font-size: larger;
+    }
+footer > p > a:hover{
+    text-decoration: underline;
+    background-color: #08979E;
+    color: #063d1e; 
+    font-size:large;
+    
+}
