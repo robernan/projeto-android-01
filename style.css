@@ -61,6 +61,7 @@ header > p{
   text-align: justify; 
     max-width: 500px;
     margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -136,7 +137,7 @@ strong{
 
 h2{
     padding: 10px;
-    font-family: var(--fonte-android);
+    font-family:'bebas neue' sans-serif;
     color: #179E08;
     background-image: linear-gradient(to left, transparent, #063d1e); 
 }
@@ -169,6 +170,7 @@ aside > h3{
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
     color: white;
+    font-size: 30px;
 }
 aside > ul{
     list-style-type: '\2714';
